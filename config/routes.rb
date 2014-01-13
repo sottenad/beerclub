@@ -1,4 +1,4 @@
-RailsStripeMembershipSaas::Application.routes.draw do
+BeerClub::Application.routes.draw do
   mount StripeEvent::Engine => '/stripe'
   get "content/gold"
   get "content/silver"

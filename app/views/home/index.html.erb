@@ -1,30 +1,23 @@
-<div id="welcome" class="hero-unit span7">
-  <h1>Membership Site</h1>
-  <h3>Learn to build a successful subscription site.</h3>
+<div class="main-hero">
+	<div class="container">
+		<h1>Beer Club will send you four delicious, rare beers each month. Your ratings help define next months haul.</h1>
+
+		<%= link_to 'Start Today', new_user_registration_path(:plan => 'deluxe'), :class => 'btn btn-primary btn-large' %> 
+	</div>
 </div>
-<div class="row span8 plans">
-  <div class="span2 well">
-    <div class="plan"><h2>Silver</h2></div>
-    <ul class="unstyled">
-      <li>One lesson a month</li>
-    </ul>
-    <h3>$9/month</h3>
-    <%= link_to 'Subscribe', new_user_registration_path(:plan => 'silver'), :class => 'btn btn-primary' %> 
-  </div>
-  <div class="span2 well featured">
-    <div class="plan featured-plan"><h2>Gold</h2></div>
-    <ul class="unstyled">
-      <li>Ten lessons a month</li>
-    </ul>
-    <h3>$19/month</h3>
-    <%= link_to 'Subscribe', new_user_registration_path(:plan => 'gold'), :class => 'btn btn-primary' %> 
-  </div>
-  <div class="span2 well">
-    <div class="plan"><h2>Platinum</h2></div>
-    <ul class="unstyled">
-      <li>Thirty lessons a month</li>
-    </ul>
-    <h3>$29/month</h3>
-    <%= link_to 'Subscribe', new_user_registration_path(:plan => 'platinum'), :class => 'btn btn-primary' %> 
-  </div>
+<div class="container content">
+	<div class="row-fluid show-grid">
+		<div class="span6 alpha">
+
+			<%= image_tag("beer-types.png") %>
+			<h3>Great Beer</h3>
+			<p>Beer Club tastes hundreds of beers in order to provide the best tasting brews straight to your door. We take diligent tasting notes and ensure that you'll be able to taste a wide range of beer styles and flavors</p>
+		</div>
+		<div class="span6 omega">
+			
+			<%= image_tag("beer-types-2.png") %>
+			<h3>Variety</h3>
+			<p>Searching the US and beyond, Beer Club brings beer from across the globe to your doorstep. We taste hundreds of beers and ensure that only the rarest, most exciting bottles make it into the club. Rest assured each bottle will be a conversation piece.</p>
+		</div>
+	</div>
 </div>

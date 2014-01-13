@@ -7,11 +7,11 @@
 # makes 'Your_Gmail_Username' available as ENV["GMAIL_USERNAME"]
 # Add application configuration variables here, as shown below.
 #
-GMAIL_USERNAME: Your_Username
-GMAIL_PASSWORD: Your_Password
-ADMIN_NAME: First User
-ADMIN_EMAIL: user@example.com
-ADMIN_PASSWORD: changeme
-ROLES: [admin, silver, gold, platinum]
-STRIPE_API_KEY: Your_Stripe_API_key
-STRIPE_PUBLIC_KEY: Your_Stripe_Public_Key
+GMAIL_USERNAME: 'sottenad'
+GMAIL_PASSWORD: 'Steve1986!'
+ADMIN_NAME: 'Steve Ottenad'
+ADMIN_EMAIL: 'sottenad@gmail.com'
+ADMIN_PASSWORD: 'stepheno'
+ROLES: ['admin', 'deluxe']
+STRIPE_API_KEY: 'vRyF6lAMuRq1FNSbDaiQFK12AexXIsQ9'
+STRIPE_PUBLIC_KEY: 'pk_4u342b5mBNO4QDEfWwdvFoJZJs3LC'

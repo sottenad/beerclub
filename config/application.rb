@@ -15,7 +15,7 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
-module RailsStripeMembershipSaas
+module BeerClub
   class Application < Rails::Application
 
     # don't generate RSpec tests for views and helpers
@@ -75,6 +75,7 @@ module RailsStripeMembershipSaas
 
     # Enable the asset pipeline
     config.assets.enabled = true
+    config.assets.compile = true
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
